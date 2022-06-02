@@ -13,3 +13,9 @@
 # limitations under the License.
 
 runtime: python39
+env_variables:
+  GAE_USE_SOCKETS_HTTPLIB : ''
+
+vpc_access_connector:
+ name: projects/gentle-cinema-351807/locations/europe-west6/connectors/server
+ egress_setting: all-traffic
